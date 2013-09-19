@@ -7,8 +7,11 @@ Install browsers as listed at [willfarrell/Browsers](https://github.com/willfarr
 ## Usage
 
 ```puppet
-# stable channel
+# all browsers stable, dev, & vms
 include browsers
+
+# stable channel
+include browsers::stable
 
 # dev channel
 include browsers::dev

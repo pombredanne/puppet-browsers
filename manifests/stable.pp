@@ -2,7 +2,7 @@
 #
 # Examples
 #
-#   include browsers:stable
+#   include browsers::stable
 class browsers::stable {
   include chrome
   include chrome::canary
