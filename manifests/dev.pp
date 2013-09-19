@@ -7,7 +7,7 @@ class browsers::dev {
   include chrome::dev
   include chrome::canary
   
-  include firefox::nightly
+  include firefox::aurora
   
   include opera::developer
   #include opera::mobile
