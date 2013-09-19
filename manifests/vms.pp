@@ -2,8 +2,8 @@
 #
 # Examples
 #
-#   include browsers:vms
-class browsers:vms {
+#   include browsers::vms
+class browsers::vms {
   include virtualbox
   
   # https://github.com/boxen/puppet-vagrant

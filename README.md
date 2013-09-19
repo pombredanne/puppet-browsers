@@ -1,4 +1,5 @@
 # Browser Puppet Module for Boxen
+Addicted to testing your web app on every browser? You do!?! We do too!
 
 [![Build Status](https://travis-ci.org/boxen/puppet-brower.png?branch=master)](https://travis-ci.org/boxen/puppet-brower)
 
@@ -23,3 +24,7 @@ include browsers::vms
 ## Required Puppet Modules
 
 * `boxen`
+
+## Development
+
+Write code. Run `script/cibuild` to test it. Check the `script` directory for other useful tools.
